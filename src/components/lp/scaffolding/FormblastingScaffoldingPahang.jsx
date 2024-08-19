@@ -127,8 +127,7 @@ export default function App() {
                   <h>Umur</h>
                   <input className="bg-gray-200 px-3 py-2 hover:shadow-md duration-500 rounded-md" placeholder="" name="Age" type="text" />
                 </div>
-              </div>
-
+              </div> 
             <div className="grid  text-left">
               <p className="text-black"></p>
             <button
@@ -157,8 +156,6 @@ export default function App() {
                   onClick={() => handleItemClick4("LAIN-LAIN")}>LAIN-LAIN</p>
                 </div>     
               </div>)}</div>
-
-
               <div className="grid text-left">
                   <p className=" text-black"></p>
                 <button
