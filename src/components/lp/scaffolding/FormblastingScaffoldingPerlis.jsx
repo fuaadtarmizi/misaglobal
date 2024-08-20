@@ -51,7 +51,7 @@ export default function App() {
     formData.append("Region", selectedItem4);
 
     fetch(
-      "https://script.google.com/macros/s/AKfycbzia3c5eOvnSn18lMET0YACb6miG2i5un-td8I77KoH0KaC77NKC8ZTg-2VeSh7Msv16Q/exec",
+      "https://script.google.com/macros/s/AKfycbwtqg0tp053K3G8rpijmvIbHTC_wwvRLhAcX3BHGeBRVCvVmV4jxCoTM4ZHA_6nEmg_ug/exec",
       {
         method: "POST",
         body: formData

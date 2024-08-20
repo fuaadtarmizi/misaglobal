@@ -48,10 +48,10 @@ export default function App() {
 
     formData.append("Cert", selectedItem4);
     formData.append("Status", selectedItem3);
-    formData.append("Region", selectedItem4);
+    formData.append("Region", selectedItem2);
 
     fetch(
-      "https://script.google.com/macros/s/AKfycbzia3c5eOvnSn18lMET0YACb6miG2i5un-td8I77KoH0KaC77NKC8ZTg-2VeSh7Msv16Q/exec",
+      "https://script.google.com/macros/s/AKfycbwOtUiQLp765w2WXqpIoP2u8u8pfz9QpH_DUKy_2nUCiGo0gVkya4ncqZGMw6PMQ1rXmQ/exec",
       {
         method: "POST",
         body: formData

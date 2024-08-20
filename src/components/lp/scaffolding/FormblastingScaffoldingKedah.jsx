@@ -51,7 +51,7 @@ export default function App() {
     formData.append("Region", selectedItem4);
 
     fetch(
-      "https://script.google.com/macros/s/AKfycbzia3c5eOvnSn18lMET0YACb6miG2i5un-td8I77KoH0KaC77NKC8ZTg-2VeSh7Msv16Q/exec",
+      "https://script.google.com/macros/s/AKfycbzMvAadjksOTwdt5ef5ttICCmp2xMp_-L0UMsCkYsGiN1H2QRdWuzyCjimJ-OPIHa7slg/exec",
       {
         method: "POST",
         body: formData
@@ -188,13 +188,6 @@ export default function App() {
               <button className="px-6 py-2 border rounded-md bg-red-700 hover:bg-red-600 hover:shadow-md duration-300 text-white" name="Submit" type="submit">APPLY NOW</button>
             </div>
           </form>
-
-
-
-           
-
-
-
             {formError && <div className="alert">{formError}</div>}
             {emailError && <div className="alert">{emailError}</div>}
             {alertMessage && <div className="alert">{alertMessage}</div>}
