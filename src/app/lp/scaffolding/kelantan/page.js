@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import FormblastingScaffoldingMelaka from '@/components/lp/scaffolding/FormblastingScaffoldingMelaka'
+import FormblastingScaffoldingKelantan from '@/components/lp/scaffolding/FormblastingScaffoldingKelantan'
 
 function page() {
   return (
@@ -227,7 +227,7 @@ function page() {
       </section>
         <section>
         <div className="">
-          <FormblastingScaffoldingMelaka/>
+          <FormblastingScaffoldingKelantan/>
         </div>
       </section>
       <div className=" py-2 md:py-4 lg:py-8"></div>
