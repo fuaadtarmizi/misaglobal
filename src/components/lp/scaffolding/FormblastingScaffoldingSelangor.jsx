@@ -48,10 +48,10 @@ export default function App() {
 
     formData.append("Cert", selectedItem4);
     formData.append("Status", selectedItem3);
-    formData.append("Region", selectedItem4);
+    formData.append("Region", selectedItem2);
 
     fetch(
-      "https://script.google.com/macros/s/AKfycbyDJBzmBP4dAYK1LwOcaEc1KEgnp0VUbfQm61JzTTQVIDmfvwgRS1-bxQAqe_aiHjGO5w/exec",
+      "https://script.google.com/macros/s/AKfycbwXIlTUkcAef8wpgNAR5rkrV2v1ReC_S8XLrojNArygae9uno8J11CFIJR6tEYyPDUxgA/exec",
       {
         method: "POST",
         body: formData
@@ -71,7 +71,7 @@ export default function App() {
     setEmailError(''); // Clear email error message
   }
 
-  //state  
+  //region  
   const toggleDropdown2 = () => {
     setIsOpen2(!isOpen2);
   };
@@ -180,20 +180,55 @@ export default function App() {
                 </div>
               )}
             </div>
-            <div className="grid rounded-md space-y-1">
-              <h className="">Daerah</h>
-              <input className="bg-gray-200 px-3 py-2 hover:shadow-md duration-500 rounded-md" placeholder="" name="Region" type="text" />
-            </div>        
-            <div className="pt-4 flex justify-center">
-              <button className="px-6 py-2 border rounded-md bg-red-700 hover:bg-red-600 hover:shadow-md duration-300 text-white" name="Submit" type="submit">APPLY NOW</button>
-            </div>
-          </form>
 
+            <div className="grid  text-left">
+        <p className="py-1 text-white">Negeri</p>
+      <button
+        onClick={toggleDropdown2} 
+        name="Negeri"
+        type="button"
+        className="bg-yellow-500 hover:bg-yellow-600 inline-flex justify-center w-full px-8 py-2 text-sm font-medium text-black  border border-transparent rounded-md focus:outline-none focus:border-indigo-700 focus:ring focus:ring-indigo-200 active:bg-indigo-800"
+      >
+        {selectedItem2 ? selectedItem2 : "Select Region"}
+      </button>
 
-
-           
-
-
+      {isOpen2 && (
+        <div className="w-full right-0 mt-2  origin-top-right bg-white border border-gray-200 divide-y  rounded-md shadow-lg ring-1 ring-black ring-opacity-5">
+ 
+          <div className=" text-sm bg-yellow-500">
+          <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
+            onClick={() => handleItemClick2("Serdang")}
+          >
+            Serdang
+          </p>
+          <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
+            onClick={() => handleItemClick2("Gombak")}
+          >
+            Gombak
+          </p>
+          <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
+            onClick={() => handleItemClick2("Klang")}
+          >
+            Klang
+          </p>
+          <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
+            onClick={() => handleItemClick2("Kuala Selangor")}
+          >
+            Kuala Selangor
+          </p>
+          <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
+            onClick={() => handleItemClick2("Kuala Lumpur (Main)")}
+          >
+            Kuala Lumpur (Main)
+          </p>
+          </div>     
+        </div>
+      )}
+    </div>
+        <div className="pt-4 flex justify-center">
+          <button className="px-6 py-2 border rounded-md bg-red-700 hover:bg-red-600 hover:shadow-md duration-300 text-white" name="Submit" type="submit">APPLY NOW</button>
+        </div>
+      </form>
 
             {formError && <div className="alert">{formError}</div>}
             {emailError && <div className="alert">{emailError}</div>}

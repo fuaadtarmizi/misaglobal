@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import FormblastingScaffoldingSerawak from '@/components/lp/scaffolding/FormblastingScaffoldingSerawak'
+import FormblastingScaffoldingPahang from '@/components/lp/scaffolding(bdc)/FormblastingScaffoldingPahang'
 
 function page() {
   return (
@@ -175,7 +175,8 @@ function page() {
                 <h className="text-xl font-medium leading-6">Lelaki - Pandai membaca, mengira, menulis, minat & mampu</h>
                 </div>
               </div>
-              </div>
+               </div>
+  
           </div>
           </div>      
         </div>
@@ -219,7 +220,7 @@ function page() {
       </section>
         <section>
         <div className="">
-          <FormblastingScaffoldingSerawak/>
+          <FormblastingScaffoldingPahang/>
         </div>
       </section>
       <div className=" py-2 md:py-4 lg:py-8"></div>

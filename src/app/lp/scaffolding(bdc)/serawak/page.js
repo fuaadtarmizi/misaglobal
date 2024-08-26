@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import FormblastingScaffoldingSerawak from '@/components/lp/scaffolding/FormblastingScaffoldingSerawak'
+import FormblastingScaffoldingSerawak from '@/components/lp/scaffolding(bdc)/FormblastingScaffoldingSerawak'
 
 function page() {
   return (

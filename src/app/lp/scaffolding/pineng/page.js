@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import FormblastingScaffoldingMelaka from '@/components/lp/scaffolding/FormblastingScaffoldingMelaka'
+import FormblastingScaffoldingPineng from '@/components/lp/scaffolding/FormblastingScaffoldingPineng'
 
 function page() {
   return (
@@ -175,14 +175,6 @@ function page() {
                 <h className="text-xl font-medium leading-6">Lelaki - Pandai membaca, mengira, menulis, minat & mampu</h>
                 </div>
               </div>
-            <div className=" flex items-start">
-                <div className="">
-                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="25" height="25" rx="4" fill="green" /><path d="M7 13L11 17L18 10" stroke="white" stroke-width="2" /></svg>
-                </div>
-                <div>
-                <h className="text-xl font-medium leading-6">Perempuan - Minimal miliki Sijil Pelajaran Malaysia (SPM) dan keatas *Bagi jawatan QC</h>
-                </div>
-              </div>
               </div>
           </div>
           </div>      
@@ -227,7 +219,7 @@ function page() {
       </section>
         <section>
         <div className="">
-          <FormblastingScaffoldingMelaka/>
+          <FormblastingScaffoldingPineng/>
         </div>
       </section>
       <div className=" py-2 md:py-4 lg:py-8"></div>

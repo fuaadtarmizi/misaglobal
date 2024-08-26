@@ -51,7 +51,7 @@ export default function App() {
     formData.append("Region", selectedItem2);
 
     fetch(
-      "https://script.google.com/macros/s/AKfycbzeklYxesuloCBfDhnzL3LjLnN-Y6P1v7wGCeRxiFmgpS-zByp6u7ctaldgEy35rwWeKA/exec",
+      "https://script.google.com/macros/s/AKfycbzpgmVf-czbbBlxYx61Faqy2KWDem7VdeTcpF7F7EZl-8stgfaL4ANvqpCAMkTnwNVaOw/exec",
       {
         method: "POST",
         body: formData
@@ -196,31 +196,20 @@ export default function App() {
 
                 <div className=" text-sm bg-yellow-500">
                 <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                  onClick={() => handleItemClick2("Kuching(Main)")}
+                  onClick={() => handleItemClick2("Bandar Melaka")}
                 >
-                  Kuching(Main)
+                  Bandar Melaka
                 </p>
                 <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                  onClick={() => handleItemClick2("Sibu")}
+                  onClick={() => handleItemClick2("Simpang Ampat")}
                 >
-                  Sibu
-                </p>
-                <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                  onClick={() => handleItemClick2("Bintulu")}
-                >
-                  Bintulu
-                </p>
-                <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                  onClick={() => handleItemClick2("Miri")}
-                >
-                  Miri
+                  Simpang Ampat
                 </p>
                 </div>     
               </div>
             )}
           </div>
 
-                   
             <div className="pt-4 flex justify-center">
               <button className="px-6 py-2 border rounded-md bg-red-700 hover:bg-red-600 hover:shadow-md duration-300 text-white" name="Submit" type="submit">APPLY NOW</button>
             </div>
