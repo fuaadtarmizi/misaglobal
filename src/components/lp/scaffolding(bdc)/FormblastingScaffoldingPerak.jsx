@@ -183,7 +183,7 @@ export default function App() {
 
 
               <div className="grid rounded-md space-y-1">
-                <h className="">Daerah</h>
+                <h className="">Tempat Pilihan Interview</h>
                 <input className="bg-gray-200 px-3 py-2 hover:shadow-md duration-500 rounded-md" placeholder="" name="Region" type="text" />
               </div>
 
