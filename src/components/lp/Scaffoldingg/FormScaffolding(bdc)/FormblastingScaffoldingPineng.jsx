@@ -10,12 +10,16 @@ export default function App() {
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
   const [isOpen4, setIsOpen4] = useState(false);
+  const [isOpen5, setIsOpen5] = useState(false);
+
 
 
 
   const [selectedItem2, setSelectedItem2] = useState(null);
   const [selectedItem3, setSelectedItem3] = useState(null);
   const [selectedItem4, setSelectedItem4] = useState(null);
+  const [selectedItem5, setSelectedItem5] = useState(null);
+
 
 
 
@@ -46,12 +50,13 @@ export default function App() {
     const formEle = document.querySelector("form");
     const formData = new FormData(formEle);
 
+    formData.append("Program", selectedItem5);
     formData.append("Cert", selectedItem4);
     formData.append("Status", selectedItem3);
     formData.append("Region", selectedItem2);
 
     fetch(
-      "https://script.google.com/macros/s/AKfycbxhTJpao8KNs-Luov3sdTSVjOKb4qSdp6OXOxptvNJBKfHc27ENjjwRUnAzBm_SIv9XZg/exec",
+      "https://script.google.com/macros/s/AKfycbyJrKthPcujDGzeLVDFaVa56HRg_4VvlnjMsUCiBUBrLk4zWTChH4rw5SMKI4SdfS3wlA/exec",
       {
         method: "POST",
         body: formData
@@ -96,6 +101,15 @@ export default function App() {
   const handleItemClick4 = (item) => {
     setSelectedItem4(item);
     setIsOpen4(false);
+  };
+
+  //program  
+  const toggleDropdown5 = () => {
+    setIsOpen5(!isOpen5);
+  };
+  const handleItemClick5 = (item) => {
+    setSelectedItem5(item);
+    setIsOpen5(false);
   };
 
   return (
@@ -180,6 +194,41 @@ export default function App() {
                 </div>
               )}
             </div>
+            <div className="grid text-left">
+              <p className=" text-white">Negeri</p>
+            <button
+              onClick={toggleDropdown5} 
+              name="Program"
+              type="button"
+              className="bg-yellow-500 hover:bg-yellow-600 inline-flex justify-center w-full px-8 py-2 text-sm font-medium text-black  border border-transparent rounded-md focus:outline-none focus:border-indigo-700 focus:ring focus:ring-indigo-200 active:bg-indigo-800"
+            >
+              {selectedItem5 ? selectedItem5 : "Pilihan Program"}
+            </button>
+
+            {isOpen5 && (
+              <div className="w-full right-0 mt-2  origin-top-right bg-white border border-gray-200 divide-y  rounded-md shadow-lg ring-1 ring-black ring-opacity-5">
+
+                <div className=" text-sm bg-yellow-500">
+                <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
+                  onClick={() => handleItemClick5("Basic Scaffolding")}
+                >
+                  Basic Scaffolding
+                </p>
+                <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
+                  onClick={() => handleItemClick5("Non-Destructive Testing Radiographic Testing")}
+                >
+                  Non-Destructive Testing Radiographic Testing
+                </p>
+                <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
+                  onClick={() => handleItemClick5("Drone Pilot Program")}
+                >
+                  Drone Pilot Program
+                </p>
+                
+                </div>     
+              </div>
+            )}
+          </div>
             <div className="grid  text-left">
               <p className="py-1 text-white">Negeri</p>
             <button
