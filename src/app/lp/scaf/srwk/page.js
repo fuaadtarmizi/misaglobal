@@ -27,7 +27,7 @@ function page() {
           </div>
       </section>
       <div className="py-2 md:py-4 lg:py-8"></div>
-      <section id="target-section">
+      {/* <section id="target-section">
         <div className="w-full bg-slate-300 p-4 rounded-md">
           <div className=" grid justify-center">
             <div className="p-2">
@@ -51,7 +51,7 @@ function page() {
           </div>
         </div>      
         </div>
-      </section>
+      </section> */}
       <div className="py-2 md:py-4 lg:py-8"></div>
       <section>
         <div className=" flex justify-center">
