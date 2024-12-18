@@ -143,45 +143,32 @@ export default function App() {
         
           <div className="pl-6 text-sm bg-yellow-500">
           <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Renewable Energy Technician")}>Renewable Energy Technician</p>
+                onClick={() => handleItemClick("Scaffolding Erector in Oil & Gas Industry")}>Scaffolding Erector in Oil & Gas Industry</p>
           </div>
           <div className="pl-6 text-sm text-white bg-slate-600">
           <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick(" Basic Scaffolding Erector in Oil & Gas Industry")}> Basic Scaffolding Erector in Oil & Gas Industry</p> 
+                onClick={() => handleItemClick("Drone Pilot ")}>Drone Pilot </p> 
           </div>
           <div className="pl-6 text-sm text-white bg-slate-600">
           <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick(" Authorized Gas Tester Entry Supervisor")}> Authorized Gas Tester Entry Supervisor</p> 
+                onClick={() => handleItemClick("Pipe Gas Insulation & Pipe gas Rigger Fitter")}>Pipe Gas Insulation & Pipe gas Rigger Fitter</p> 
           </div>
           <div className="pl-6 text-sm text-white bg-slate-600">
           <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Non-Destructive Testing Radiographic Testing Level 2")}>Non-Destructive Testing Radiographic Testing Level 2</p> 
+                onClick={() => handleItemClick("Dek Kapal (Deck Rating)")}>Dek Kapal (Deck Rating)</p> 
           </div>
           <div className="pl-6 text-sm text-white bg-slate-600">
           <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Drone Pilot Programme - Basic Remote Pilot")}>Drone Pilot Programme - Basic Remote Pilot</p> 
+                onClick={() => handleItemClick("Enjin Kapal (Engine Rating)")}>Enjin Kapal (Engine Rating)</p> 
           </div>
           <div className="pl-6 text-sm text-white bg-slate-600">
           <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Fibre Optic Splicer Technician")}>Fibre Optic Splicer Technician</p> 
+                onClick={() => handleItemClick("Kulinari (Oil & Gas Culinary)")}>Kulinari (Oil & Gas Culinary)</p> 
           </div>
           <div className="pl-6 text-sm text-white bg-slate-600">
           <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Fibre Optic Technician")}>Fibre Optic Technician</p> 
+                onClick={() => handleItemClick("Katering Kapal (Catering Rating)")}>Katering Kapal (Catering Rating)</p> 
           </div>
-          <div className="pl-6 text-sm text-white bg-slate-600">
-          <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Sijil Profesional Pemasangan Paip Gas (Pipe Gas Insulation),Sijil Profesional Rigger Fitter")}>Sijil Profesional Pemasangan Paip Gas (Pipe Gas Insulation),Sijil Profesional Rigger Fitter</p> 
-          </div>
-          <div className="pl-6 text-sm text-white bg-slate-600">
-          <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Sijil Profesional Dek Kapal (Deck Rating),Sijil Profesional Enjin Kapal (Engine Rating),Sijil Profesional Kulinari (Oil & Gas Culinary),Sijil Profesional Katering Kapal (Catering Rating), Sijil Profisiensi Perkapalan")}>Sijil Profesional Dek Kapal (Deck Rating),Sijil Profesional Enjin Kapal (Engine Rating),Sijil Profesional Kulinari (Oil & Gas Culinary),Sijil Profesional Katering Kapal (Catering Rating), Sijil Profisiensi Perkapalan</p> 
-          </div>
-          <div className="pl-6 text-sm text-white bg-slate-600">
-          <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Sijil Profesional Pemasangan Paip Gas Insulation (ZABSI),Sijil Profesional Rigger Fitter (ZABSI)")}>Sijil Profesional Pemasangan Paip Gas Insulation (ZABSI),Sijil Profesional Rigger Fitter (ZABSI)</p> 
-          </div>
-          
         </div>
       )}
     </div> 
