@@ -106,7 +106,7 @@ export default function App() {
         <h className="py-6 text-black text-3xl font-bold">Course Enquiry</h>
  
       <div className="grid rounded-md">
-        <h className="">Name</h>
+        <h className="">Nama</h>
       <input className="bg-gray-200 px-3  hover:shadow-md duration-500 rounded-md " placeholder="" name="Name" type="text" />
       </div>
       <div className="grid rounded-md">
@@ -118,17 +118,17 @@ export default function App() {
       </div>
       <div className="grid lg:flex  ">
       <div className="grid">
-            <h> Contact Number </h>
+            <h> No Tel Anda </h>
             <input className="bg-gray-200 px-3 py-2 hover:shadow-md duration-500 rounded-md" placeholder="" name="NumberPhone" type="text" />
           </div>
           <div className="grid ">
-            <h>Age</h>
+            <h>Umur</h>
             <input className="bg-gray-200 px-3 py-2 hover:shadow-md duration-500 rounded-md" placeholder="" name="Age" type="text" />
           </div>
       </div>
       
       <div className="w-full relative inline-block text-left">
-        <div>Choose your career</div>
+        <div>Pilih Kerjaya</div>
       <button
         onClick={toggleDropdown} 
         name="Program"
@@ -143,43 +143,43 @@ export default function App() {
         
           <div className="pl-6 text-sm bg-yellow-500">
           <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Renewble Energy - RET")}>Renewble Energy - RET</p>
+                onClick={() => handleItemClick("Renewable Energy Technician")}>Renewable Energy Technician</p>
           </div>
           <div className="pl-6 text-sm text-white bg-slate-600">
           <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Basic Scaffolding - BSE")}>Basic Scaffolding - BSE</p> 
+                onClick={() => handleItemClick(" Basic Scaffolding Erector in Oil & Gas Industry")}> Basic Scaffolding Erector in Oil & Gas Industry</p> 
           </div>
           <div className="pl-6 text-sm text-white bg-slate-600">
           <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Authorize Gas Tester - AGT")}>Authorize Gas Tester - AGT</p> 
+                onClick={() => handleItemClick(" Authorized Gas Tester Entry Supervisor")}> Authorized Gas Tester Entry Supervisor</p> 
           </div>
           <div className="pl-6 text-sm text-white bg-slate-600">
           <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Non-Destructive Testing Radiographic Testing - NDT")}>Non-Destructive Testing Radiographic Testing - NDT</p> 
+                onClick={() => handleItemClick("Non-Destructive Testing Radiographic Testing Level 2")}>Non-Destructive Testing Radiographic Testing Level 2</p> 
           </div>
           <div className="pl-6 text-sm text-white bg-slate-600">
           <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Drone Pilot - DRN")}>Drone Pilot - DRN</p> 
+                onClick={() => handleItemClick("Drone Pilot Programme - Basic Remote Pilot")}>Drone Pilot Programme - Basic Remote Pilot</p> 
           </div>
           <div className="pl-6 text-sm text-white bg-slate-600">
           <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Fibre Optic Splicer - FOS")}>Fibre Optic Splicer - FOS</p> 
+                onClick={() => handleItemClick("Fibre Optic Splicer Technician")}>Fibre Optic Splicer Technician</p> 
           </div>
           <div className="pl-6 text-sm text-white bg-slate-600">
           <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Fibre Optic Technician - FOT")}>Fibre Optic Splicer - FOS</p> 
+                onClick={() => handleItemClick("Fibre Optic Technician")}>Fibre Optic Technician</p> 
           </div>
           <div className="pl-6 text-sm text-white bg-slate-600">
           <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Oil & Gas - OGR")}>Oil & Gas - OGR</p> 
+                onClick={() => handleItemClick("Sijil Profesional Pemasangan Paip Gas (Pipe Gas Insulation),Sijil Profesional Rigger Fitter")}>Sijil Profesional Pemasangan Paip Gas (Pipe Gas Insulation),Sijil Profesional Rigger Fitter</p> 
           </div>
           <div className="pl-6 text-sm text-white bg-slate-600">
           <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Maritim - MRR")}>Maritim - MRR</p> 
+                onClick={() => handleItemClick("Sijil Profesional Dek Kapal (Deck Rating),Sijil Profesional Enjin Kapal (Engine Rating),Sijil Profesional Kulinari (Oil & Gas Culinary),Sijil Profesional Katering Kapal (Catering Rating), Sijil Profisiensi Perkapalan")}>Sijil Profesional Dek Kapal (Deck Rating),Sijil Profesional Enjin Kapal (Engine Rating),Sijil Profesional Kulinari (Oil & Gas Culinary),Sijil Profesional Katering Kapal (Catering Rating), Sijil Profisiensi Perkapalan</p> 
           </div>
           <div className="pl-6 text-sm text-white bg-slate-600">
           <p className="px-4 py-2 cursor-pointer hover:bg-yellow-400 rounded-md"
-                onClick={() => handleItemClick("Maritim")}>Maritim</p> 
+                onClick={() => handleItemClick("Sijil Profesional Pemasangan Paip Gas Insulation (ZABSI),Sijil Profesional Rigger Fitter (ZABSI)")}>Sijil Profesional Pemasangan Paip Gas Insulation (ZABSI),Sijil Profesional Rigger Fitter (ZABSI)</p> 
           </div>
           
         </div>
@@ -188,7 +188,7 @@ export default function App() {
 
           
       <div className="grid  text-left">
-        <p className="py-1 text-black">Place of Interview</p>
+        <p className="py-1 text-black">Tempat Interview</p>
       <button
         onClick={toggleDropdown2} 
         name="Negeri"
