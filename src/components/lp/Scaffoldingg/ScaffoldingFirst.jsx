@@ -7,7 +7,7 @@ function page() {
     <div className="">
       <div className="bg-slate-200 flex justify-center">
       <Image
-          className=""
+          className="w-full"
           src="/lpmisa.jpg"
           alt="lpmisa"
           width="600"
