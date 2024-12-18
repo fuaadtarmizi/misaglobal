@@ -5,8 +5,6 @@ import {useEffect} from 'react';
 import Image from 'next/image'
 import Footer from "@/components/Footer.jsx"
 
-
-
 export default function App() {
     const [isOpen, setIsOpen] = useState(false);
     const [isOpen1, setIsOpen1] = useState(false);
@@ -40,7 +38,7 @@ export default function App() {
     
 
     fetch(
-      "https://script.google.com/macros/s/AKfycbwjSeWQGqPFAWD4IlQiKwwyycb1JxyGFcC3EVkWrKoAIw6Z7vv0fS0TM9OyNrbZTCsM/exec",
+      "https://script.google.com/macros/s/AKfycbyG0qKRdu8ThJgMNOe2Fp5dhBcfOu_FEpy0mtUFmGJ-aPqaR5V21zfZS6UaxClWUE2hxA/exec",
       {
         method: "POST",
         body: formDatab
