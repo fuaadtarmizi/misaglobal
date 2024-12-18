@@ -3,19 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes slow-infinite-scroll {
+@keyframes expandCircle {
   0% {
-    transform: translateX(0);
+    clip-path: circle(0% at 50% 50%);
   }
   100% {
-    transform: translateX(-100%);
+    clip-path: circle(90% at 50% 50%);
   }
-}
-
-.animate-slow-infinite-scroll {
-  animation: slow-infinite-scroll 30s linear infinite;
-}
-
-html {
-  scroll-behavior: smooth;
 }

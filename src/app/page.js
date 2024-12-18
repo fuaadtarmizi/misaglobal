@@ -1,9 +1,31 @@
 import Image from "next/image";
+import Intro from '@/components/Intro'
+import Intro2 from '@/components/Intro2'
+import Intro3 from '@/components/Intro3'
+import Courses from '@/components/Courses'
+
+import Section1 from '@/components/Section1'
+import Footer from '@/components/Footer'
+import Testimoni from '@/components/Testimoni'
+import Navbar from '@/components/Navbar'
+import SideNav from '@/components/SideNav'
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      misa main page upcoming...
-    </main>
+    <>
+    <nav className='hidden lg:block w-full'><Navbar/></nav>
+    <nav className='lg:hidden w-full'><SideNav/></nav>
+      <section className="w-full">
+        <Intro2/>
+        <Intro3/>
+        {/* <Section1/> */}
+        <Courses/>
+        <Testimoni/>
+        <Footer/>
+      </section>
+      
+ 
+    </>
   );
 }
