@@ -44,7 +44,7 @@ function Syarat() {
         <div className="border-b border-black border-1"></div>
       </div>
       <div className=" bg-red-600 flex justify-center p-4 ">
-        <h className="text-lg lg:text-4xl font-bold text-white">KAMI PERLUKAN ANDA SEKARANG</h>
+        <h className="text-lg lg:text-4xl text-center font-bold text-white">KAMI PERLUKAN ANDA SEKARANG</h>
       </div>
         <div className="space-y-4 ">
           <p className="font-extrabold text-3xl lg:text-4xl text-center text-red-700">TERHAD KEPADA 27 KEKOSONGAN</p>

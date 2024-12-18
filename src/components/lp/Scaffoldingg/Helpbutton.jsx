@@ -33,7 +33,7 @@ const ContactSection = () => {
               href="https://wa.me/+601115403660"
               className="bg-white hover:bg-green-300 motion-safe:transition-all motion-safe:duration-700 ease-in-out flex items-center justify-center px-4 w-full border-2 border-black rounded-full"
             >
-              <h3 className="text-lg font-semibold">WhatsApp (En.Sayyid)</h3>
+              <h3 className="text-md font-semibold">WhatsApp (En.Sayyid)</h3>
             </a>
           </div>
 
