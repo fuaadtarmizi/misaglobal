@@ -103,7 +103,7 @@ export default function App() {
   return (
     <main>
       <head>
-        <title>YEG Academy - Borang YEG | MISA</title>
+        <title>MISA - Borang MISA</title>
       </head>   
     <div className="bg-black"  >
     <div className=" flex justify-center">
