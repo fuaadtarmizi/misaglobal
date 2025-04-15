@@ -5,7 +5,7 @@ import Image from "next/image"
 function footer() {
   return (
     <div>
-      <div className="py-8 lg:py-10 md:[height:80px]"></div>
+      {/* <div className="py-8 lg:py-10 md:[height:80px]"></div> */}
     <section13>
       <div className="w-full h-full">
         <div className=" bg-yellow-600 grid grid-cols-1 lg:grid-cols-3">
