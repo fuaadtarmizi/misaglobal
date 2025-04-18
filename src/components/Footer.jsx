@@ -23,9 +23,8 @@ function footer() {
           </a>
           <div className="grid p-8 lg:px-28 px-14 text-white text-xs">
             <h className="">MISA GLOBAL WORK SDN BHD</h> 
-            <h1>BLOK E-2-2 , The Strand Garden Office,</h1>
-            <h2>Pusat Perdagangan Kota Damansara, Jalan PJU 5 Kota Damandsara</h2>
-            <h3>47810,Petaling, Selangor</h3> 
+            <h1>19 Jalan 4, Bandar Baru Salak Tinggi,</h1>
+            <h3>43900 Sepang, Selangor</h3> 
             <div className="grid py-6 ">
             <h>Working hours : 8.30am-5.30pm</h>
             <h>Email: info@yegmy.com</h>
