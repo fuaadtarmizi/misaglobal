@@ -1,6 +1,7 @@
 'use client'
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
+import Image from 'next/image'
 
 const HeroSection = () => {
   useEffect(() => {
@@ -14,13 +15,18 @@ const HeroSection = () => {
 
   return (
     <div className="relative h-screen w-full flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div className="absolute inset-0 bg-cover bg-center" style={{
-        backgroundImage: "url('https://your-image-url.com/hero.jpg')"
-      }}></div>
+      {/* Background Image relative*/}
+      <div className="absolute ">
+        <Image
+          className="" 
+          src="/home/image1.png"
+          alt="mou"
+          width="1800"
+          height="100"
+          style={{objectFit:"cover"}}/>
+      </div>
       
       {/* Overlay for Dark Effect */}
-      <div className="absolute inset-0 bg-black opacity-50"></div>
 
       {/* Hero Content */}
       <div className="hero-content text-center text-white z-10">

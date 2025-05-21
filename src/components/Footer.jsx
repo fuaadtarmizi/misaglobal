@@ -17,9 +17,7 @@ function footer() {
             alt="misalogo2"
             width="250"
             height="10"
-            style={{
-              objectFit:"contain",
-            }}/>
+            style={{objectFit:"contain"}}/>
           </a>
           <div className="grid p-8 lg:px-28 px-14 text-white text-xs">
             <h className="">MISA GLOBAL WORK SDN BHD</h> 

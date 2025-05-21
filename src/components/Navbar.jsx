@@ -12,26 +12,25 @@ import {
 
 function Navbar() {
   return (
-    <nav className="p-6 bg-white">
-        <div className="w-full "> 
-        <Menubar >
-        <div className=" pl-4">
-    <a href="/" className="">
+    <nav className="relative w-full p-6 bg-gradient-to-b from-[#102d41] via-[#4aa5e2] to-transparent">
+        <Menubar>
+        <div className="pl-4">
+            <a href="/" className="">
             <Image
                 className=""
                 src="/misalogo2.png"
                 alt="logoyeg"
                 height="140"
                 width="140"
-                style={{
-                objectFit: "contain",
-                }}/></a></div>
+                style={{objectFit: "contain"}}/>
+                </a>
+                </div>
             <div className=" flex w-full justify-end space-x-8">
             <MenubarMenu className="">
-                <MenubarTrigger className="hover:bg-slate-700 hover:text-white">
-                <a className="text-md  ml-2" href="./about-us">About Us</a> 
+                <MenubarTrigger className="hover:bg-slate-500 rounded duration-500">
+                    <a className="text-md text-white ml-2" href="/aboutus">About Us</a> 
                 </MenubarTrigger>
-                {/* <MenubarContent>
+                {/* <MenubarContent  >
                     <MenubarItem>
                     <div className="w-full p-2 hover:bg-slate-500 hover:bg-opacity-10">
                         <a className="text-md font-light ml-2" href="./Aboutus">Corperate Overview</a> </div>
@@ -80,7 +79,7 @@ function Navbar() {
                 </MenubarContent>
             </MenubarMenu> */}
             <MenubarMenu>
-                <MenubarTrigger className="hover:bg-slate-700 hover:text-white">Maritim</MenubarTrigger>
+                <MenubarTrigger className="hover:bg-slate-500 rounded duration-500 text-white">News & Media</MenubarTrigger>
                 <MenubarContent>
                     <MenubarItem>
                     <div className="w-full p-2 hover:bg-slate-500 hover:bg-opacity-10">
@@ -93,7 +92,7 @@ function Navbar() {
                 </MenubarContent>
             </MenubarMenu>
             <MenubarMenu>
-                <MenubarTrigger className="hover:bg-slate-700 hover:text-white">Telcomunication</MenubarTrigger>
+                <MenubarTrigger className="hover:bg-slate-500 rounded duration-500 text-white">Our Partner</MenubarTrigger>
                 <MenubarContent>
                     <MenubarItem>
                     <div className="w-full p-2 hover:bg-slate-500 hover:bg-opacity-10">
@@ -109,7 +108,7 @@ function Navbar() {
                     </MenubarItem>
                 </MenubarContent>
             </MenubarMenu>
-            <MenubarMenu>
+            {/* <MenubarMenu>
                 <MenubarTrigger className="hover:bg-slate-700 hover:text-white">Renewble Energy</MenubarTrigger>
                 <MenubarContent>
                     <MenubarItem>
@@ -117,7 +116,7 @@ function Navbar() {
                         <a className="text-md font-light ml-2" href="../kursusdiplomawbl/dhumywbl">Solar Technician</a></div>
                     </MenubarItem>
                 </MenubarContent>
-            </MenubarMenu>
+            </MenubarMenu> */}
 
             {/* <MenubarMenu>
                 <MenubarTrigger className="hover:bg-slate-700 hover:text-white">
@@ -131,8 +130,8 @@ function Navbar() {
                 <MenubarTrigger className="hover:bg-slate-700 hover:text-white">
                 <a className="" href="../career">Job Vacancy</a></MenubarTrigger>
             </MenubarMenu> */}
-            <MenubarMenu>
-                {/* <MenubarTrigger><a className="">PDPT-YEG</a></MenubarTrigger> */}
+            {/* <MenubarMenu>
+                <MenubarTrigger><a className="">PDPT-YEG</a></MenubarTrigger>
                 <MenubarContent>
                     <MenubarItem className="grid">
                         <div className="w-full p-2 hover:bg-slate-500 hover:bg-opacity-10">
@@ -145,18 +144,16 @@ function Navbar() {
                         <a className="text-md font-light ml-2" href="/">Penguatkuasa Undang-Undang Examination</a></div>
                     </MenubarItem>
                 </MenubarContent>
-            </MenubarMenu>
+            </MenubarMenu> */}
             <MenubarMenu>
-                <MenubarTrigger className="bg-yellow-500 hover:bg-yellow-400">
+                <MenubarTrigger className=" hover:bg-slate-500 rounded duration-500 text-white">
                 <a href="../borangyeg">Contact Us</a> </MenubarTrigger>
             </MenubarMenu>
             </div>
             </Menubar>
-        </div>
+       
     </nav>
   )
 }
 
 export default Navbar
-
-
