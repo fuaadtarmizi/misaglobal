@@ -7,29 +7,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Fullscreen } from 'lucide-react';
 
-const settings = {
-    dots: false,
-    infinite: true,
-    speed: 1000,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    autoplay: true,
-    responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-          }
-        },
-        {
-          breakpoint: 640, 
-          settings: {
-            slidesToShow: 1,
-          }
-        }
-      ]
-  };
-
 const card = [
     {
       name: "Naufal Raziman",
@@ -38,37 +15,66 @@ const card = [
       quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang. Terima Kasih MISA"
     },
     {
-        name: "Naufal w",
-        program: "Scaffolding",
-        image: "/testimoni/testimoni1.png",
+        name: "Azizul",
+        program: "Rigger Fitter",
+        image: "/testimoni/azizul.jpg",
         quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang"
-      }
+      },
+      {
+      name: "Alif Fikra",
+      program: "Rigger Fitter",
+      image: "/testimoni/alif-fikra.jpg",
+      quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang. Terima Kasih MISA"
+    },
+    {
+      name: "Nazirul Rahimi",
+      program: "Rigger Fitter",
+      image: "/testimoni/nazirul-rahimi.jpg",
+      quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang. Terima Kasih MISA"
+    },
+    {
+      name: "Faris Ikhwan",
+      program: "Rigger Fitter",
+      image: "/testimoni/faris-ikhwan.jpg",
+      quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang. Terima Kasih MISA"
+    },
+    {
+      name: "Zaki Yusuf",
+      program: "Rigger Fitter",
+      image: "/testimoni/zaki-yusuf.jpg",
+      quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang. Terima Kasih MISA"
+    },
+    {
+      name: "Nurashimboi Azamboi",
+      program: "Rigger Fitter",
+      image: "/testimoni/nurashimboi.jpg",
+      quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang. Terima Kasih MISA"
+    },
   ];
 
 const testimoni = () => {
   return (
     <>
-    <div className="w-full overflow-hidden">
-    <Slider {...settings}>
+    <div className="w-full overflow-hidden group py-2">
+    <div className="flex animate-marquee group-hover:paused gap-8">
       {card.map((item, index) => (
-        <div key={index} className="p-4 rounded-md drop-shadow-md gap-5">
-          <div className="flex items-center bg-red-300">
+        <div key={index} className="p-4 rounded drop-shadow-md min-w-[600px] bg-slate-200 flex items-center ">
+          <div className="flex items-center ">
             <Image
-              className="w-[30%] rounded-sm object-contain"
+              className="min-w-[300px] rounded-sm object-contain"
               src={item.image}
               alt={item.name}
-              width={1200}
-              height={64}
-            />
-            <div className="grid">
+              width={400}
+              height={64}/>
+            <div className="grid p-3">
                 <h3 className="font-bold mt-2">{item.name} - {item.program}</h3>
-                <p className=" mt-2">{item.quote}</p>
+                <p className="text-sm mt-2">{item.quote}</p>
             </div>
             
           </div>
         </div>
       ))}
-    </Slider>
+    </div>
 
         {/* <section1 className="px-28">
         <div className="pt-8">
@@ -92,20 +98,12 @@ const testimoni = () => {
 
 
         </section1> */}
-        <div className="w-full flex justify-center"> 
-        <Image
-          id="image1"
-            className="rounded-md"
-            src="/bersamatun.svg"
-            alt="bersamatun"
-            width="1470"
-            height="10"
-            style={{
-              objectFit:"contain",
-            }}
-          />
+        
         </div>
-        </div>
+
+
+
+        
         
     </>
   )

@@ -21,7 +21,7 @@ const HeroSection = () => {
           className="" 
           src="/home/image1.png"
           alt="mou"
-          width="1800"
+          width="2000"
           height="100"
           style={{objectFit:"cover"}}/>
       </div>

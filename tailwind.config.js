@@ -20,8 +20,7 @@ module.exports = {
 			'3000': '3000ms', 
 			'4000': '4000ms',
 		  },
-		
-  		keyframe: {
+  		keyframes: {
   			'accordion-down': {
   				from: {
   					height: '0'
@@ -37,9 +36,16 @@ module.exports = {
   				to: {
   					height: '0'
   				}
-  			}
+  			},
+			'marquee' : {
+          		'0%': { transform: 'translateX(0%)' },
+          		'100%': { transform: 'translateX(-50%)' },
+        },
   		},
+
+
   		animation: {
+			'marquee': 'marquee 30s linear infinite',
   			'accoordion-down': 'accordion-down 0.2s ease-out',
   			'accordion-up': 'accordion-up 0.2s ease-out'
   		},
@@ -101,6 +107,20 @@ module.exports = {
   			}
   		}
   	}
+
+
+
+
+
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"),
+	function ({addUtilities}) {
+		addUtilities({
+			'.paused': {
+				animationPlayState: 'paused',
+			}
+		})
+
+	}
+  ],
 };
