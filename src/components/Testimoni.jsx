@@ -8,12 +8,6 @@ import "slick-carousel/slick/slick-theme.css";
 import { Fullscreen } from 'lucide-react';
 
 const card = [
-    // {
-    //   name: "Naufal Raziman",
-    //   program: "Scaffolding",
-    //   image: "/testimoni/naufal.png",
-    //   quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang. Terima Kasih MISA"
-    // },
     {
         name: "Azizul",
         program: "Rigger Fitter",
