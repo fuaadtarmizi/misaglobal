@@ -17,14 +17,14 @@ function Navbar() {
         <div className="pl-4">
             <a href="/" className="">
             <Image
-                className=""
-                src="/misalogo2.png"
-                alt="logoyeg"
-                height="140"
-                width="140"
-                style={{objectFit: "contain"}}/>
-                </a>
-                </div>
+            className=""
+            src="/misalogo2.png"
+            alt="logoyeg"
+            height="140"
+            width="140"
+            style={{objectFit: "contain"}}/>
+            </a>
+            </div>
             <div className=" flex w-full justify-end space-x-8">
             <MenubarMenu className="">
                 <MenubarTrigger className="hover:bg-slate-500 rounded duration-500">

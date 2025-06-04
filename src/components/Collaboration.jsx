@@ -73,7 +73,7 @@ function Collaboration() {
     </div>
     </div>
     <div>
-      <div className="p-3 text-gray-400 border-spacing-1.5 flex justify-center">
+      <div className="lg:hidden p-3 text-gray-400 border-spacing-1.5 flex justify-center">
         <div className="w-full max-w-[150px] h-px bg-gray-300 mt-2.5 mr-2" />
         <p className="text-gray-400 whitespace-nowrap text-sm">Our Top Collaboration</p>
         <div className="w-full max-w-[150px] h-px bg-gray-300 mt-2.5 ml-2"/>
