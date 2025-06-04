@@ -16,7 +16,7 @@ function Intro() {
               src="/home/alumnimisa.jpg"
               alt="malayfounding"
               width={600}
-              height="00"
+              height={10}
               style={{objectFit:"contain"}}/>
           </div>
           <div className="w-auto h-full grid mx-9 lg:mx-auto md:mx-16 col-span-12 md:col-span-6 gap-6 lg:col-span-5 md:order-3 pl-4 items-center">   

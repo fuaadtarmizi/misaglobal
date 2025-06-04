@@ -15,31 +15,31 @@ const card = [
         quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang"
       },
       {
-      name: "Alif Fikra",
+      name: "AlifFikra",
       program: "Rigger Fitter",
-      image: "/testimoni/aliffikra.jpg",
+      image: "/testimoni/alifFikra.jpg",
       quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang. Terima Kasih MISA"
     },
     {
-      name: "Nazirul Rahimi",
+      name: "NazirulRahimi",
       program: "Rigger Fitter",
-      image: "/testimoni/nazirulrahimi.jpg",
+      image: "/testimoni/nazirulRahimi.jpg",
       quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang. Terima Kasih MISA"
     },
     {
-      name: "Faris Ikhwan",
+      name: "FarisIkhwan",
       program: "Rigger Fitter",
-      image: "/testimoni/farisikhwan.jpg",
+      image: "/testimoni/farisIkhwan.jpg",
       quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang. Terima Kasih MISA"
     },
     {
-      name: "Zaki Yusuf",
+      name: "ZakiYusuf",
       program: "Rigger Fitter",
-      image: "/testimoni/zakiyusuf.jpg",
+      image: "/testimoni/zakiYusuf.jpg",
       quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang. Terima Kasih MISA"
     },
     {
-      name: "Nurashimboi Azamboi",
+      name: "NurashimboiAzamboi",
       program: "Rigger Fitter",
       image: "/testimoni/nurashimboi.jpg",
       quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang. Terima Kasih MISA"
