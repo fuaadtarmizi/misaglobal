@@ -14,7 +14,7 @@ function Intro() {
           <div className="flex justify-center w-full h-full mx-auto col-span-12 md:col-span-6 lg:col-span-6 md:order-2">
             <Image
               src="/home/alumnimisa.jpg"
-              alt="malayfounding"
+              alt="alumni"
               width={600}
               height={10}
               style={{objectFit:"contain"}}/>
