@@ -18,7 +18,7 @@ function Navbar() {
             <a href="/" className="">
             <Image
             className=""
-            src="/misalogo2.png"
+            src="/home/misalogo2.png"
             alt="logoyeg"
             height="140"
             width="140"
