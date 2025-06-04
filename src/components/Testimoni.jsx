@@ -9,7 +9,7 @@ import { Fullscreen } from 'lucide-react';
 
 const card = [
     {
-        name: "Azizul",
+        name: "Azizul", 
         program: "Rigger Fitter",
         image: "/testimoni/azizul.jpg",
         quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang"
