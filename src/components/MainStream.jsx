@@ -13,7 +13,7 @@ function Intro() {
         <div className="w-full h-full grid lg:grid-cols-12 gap-2 md:col-span-2 py-2 p-2 bg-slate-100">
           <div className="flex justify-center w-full h-full mx-auto col-span-12 md:col-span-6 lg:col-span-6 md:order-2">
             <Image
-              src="/home/alumnimisa.jpg"
+              src="/home/RakyatMisa.jpg"
               alt="alumni"
               width={600}
               height={10}
