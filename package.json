@@ -18,7 +18,7 @@
     "aos": "^2.3.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "framer-motion": "^12.11.3",
+    "framer-motion": "^12.15.0",
     "gsap": "^3.13.0",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.445.0",

@@ -6,11 +6,11 @@ function Intro() {
   return (
     <>
     {/* <div className="py-2 lg:py-10 md:[height:80px]"></div> */}
-    <div className="py-14 bg-slate-100">
-      <div className=" w-full flex justify-center">
+    <div className="py-8 bg-slate-100">
+      <div className="w-full flex justify-center py-2">
           <span className="lg:text-4xl font text-lg text-blue-950 font-bold text-center">THE <span className="text-yellow-600">YEG ACADEMY</span> DIFFERENCE</span>
         </div>
-        <div className="w-full h-full grid  lg:grid-cols-12 gap-2 md:col-span-2 py-2 p-2 bg-slate-100">
+        <div className="w-full h-full grid lg:grid-cols-12 gap-2 md:col-span-2 py-2 p-2 bg-slate-100">
           <div className="flex justify-center w-full h-full mx-auto col-span-12 md:col-span-6 lg:col-span-6 md:order-2">
             <Image
               src="/home/alumnimisa.jpg"
@@ -43,9 +43,7 @@ function Intro() {
               alt="malaysia"
               width="180"
               height="200"
-              style={{
-                objectFit:"contain",
-              }}
+              style={{objectFit:"contain",}}
             /> 
             </div>  
           </div>  

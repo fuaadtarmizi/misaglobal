@@ -52,7 +52,7 @@ const testimoni = () => {
     <div className="w-full overflow-hidden group py-2">
     <div className="flex animate-marquee group-hover:paused gap-8">
       {card.map((item, index) => (
-        <div key={index} className="p-4 rounded drop-shadow-md min-w-[600px] bg-slate-200 flex items-center ">
+        <div key={index} className="p-2 rounded drop-shadow-md min-w-[600px] bg-slate-200 flex items-center ">
           <div className="flex items-center ">
             <Image
               className="min-w-[300px] rounded-sm object-contain"
@@ -69,31 +69,7 @@ const testimoni = () => {
         </div>
       ))}
     </div>
-
-        {/* <section1 className="px-28">
-        <div className="pt-8">
-            <div className="flex justify-center py-8">
-        <div className="group w-3/4 h-full grid justify-center ">
-          <span className="text-slate-700 font-bold text-4xl bg-gradient-to-r from-yellow-500 to-yellow-500 bg-no-repeat [background-position:0_88%] [background-size:1%_100%] motion-safe:transition-all motion-safe:duration-700 group-hover:[background-size:100%_100%] focus:[background-size:100%_100%]">
-          TESTIMONI</span>
-      </div>
-      </div>
-            </div>
-            <div className="pt-8">
-            <div className="flex justify-center py-8">
-        <div className="group w-3/4 h-full grid justify-center ">
-          <span className="text-slate-700 font-bold text-4xl bg-gradient-to-r from-yellow-500 to-yellow-500 bg-no-repeat [background-position:0_88%] [background-size:1%_100%] motion-safe:transition-all motion-safe:duration-700 group-hover:[background-size:100%_100%] focus:[background-size:100%_100%]">
-          ALUMNI</span>
-      </div>
-      </div>
-            </div>
-
-            
-
-
-        </section1> */}
-        
-        </div>
+    </div>
 
 
 

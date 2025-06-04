@@ -12,7 +12,7 @@ function footer() {
             <a className="flex justify-center" href="/">
           <Image
             className="" 
-            src="/misalogo2.png"
+            src="/home/misalogo2.png"
             alt="misalogo2"
             width="260"
             height="10"
