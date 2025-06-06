@@ -49,8 +49,6 @@ const ScrollAnimation = () => {
             </div>
           </div>
         </div>
-        
-
         {/* Right Side */}
         <div className="scroll-right">
           <div className="scroll-bg" style={{ backgroundImage: "url('https://www.petrosync.com/blog/wp-content/uploads/2024/03/Top-10-offshore-drilling-companies-1200x900-1.png')" }}></div>

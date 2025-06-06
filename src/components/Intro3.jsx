@@ -22,14 +22,13 @@ const DynamicServices = () => {
 
   return (
     <>
-    <div className="bg-gray-200 w-full">
+    <div className="bg-gray-800 w-full">
     <div className="container py-12 px-6 ">
       <div className="text-center mb-8">
         <h2 className="text-3xl space-y-2">
-          <h1 className="text-blue-900 font-extrabold">MISA Course</h1>
+          <h1 className="text-yellow-600 font-extrabold">MISA Course</h1>
         </h2>
       </div>
-
       <div className="relative">
         {/* First 9 cards in a 3-column grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-6">
@@ -46,7 +45,6 @@ const DynamicServices = () => {
             </div>
           ))}
         </div>
-
         {/* Last 2 items centered */}
         <div className="col-span-3 flex justify-center gap-6">
           {lastTwoItems.map((subItem) => (
