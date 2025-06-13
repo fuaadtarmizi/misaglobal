@@ -26,9 +26,8 @@ function footer() {
                 </div>
                 <div className="grid py-2 text-center">
                   <h>Working hours : 8.30am-5.30pm</h>
-                  <h>Email: info@yegmy.com</h>
+                  <h>Email: info@misa-global.com</h>
                 <div className="grid py-2 text-center">
-                  <h>Management Office: +603-6144 6558</h>
                   <h>Customer Service: +603-6143 5073</h>
                 </div>
             </div>

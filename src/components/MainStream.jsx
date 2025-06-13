@@ -8,7 +8,7 @@ function Intro() {
     {/* <div className="py-2 lg:py-10 md:[height:80px]"></div> */}
     <div className="py-8 bg-slate-100">
       <div className="w-full flex justify-center py-2">
-          <span className="lg:text-4xl font text-lg text-blue-950 font-bold text-center">THE <span className="text-yellow-600">YEG ACADEMY</span> DIFFERENCE</span>
+          <span className="lg:text-4xl font text-lg text-blue-950 font-bold text-center">THE <span className="text-yellow-600">MISA</span> DIFFERENCE</span>
         </div>
         <div className="w-full h-full grid lg:grid-cols-12 gap-2 md:col-span-2 py-2 p-2 bg-slate-100">
           <div className="flex justify-center w-full h-full mx-auto col-span-12 md:col-span-6 lg:col-span-6 md:order-2">
@@ -24,8 +24,8 @@ function Intro() {
             
             </div>
             <div className="w-full h-full space-y-3  grid justify-center">
-              <p className=" font-normal text-md text-slate-700 "><a className="border-b-2 border-yellow-600 font-bold" href="/">Misa Academy</a> merupakan sebuah organisasi pendidikan di Malaysia yang menawarkan program pembelajaran dan pembangunan kerjaya yang selari dengan keperluan semasa pasaran kerja. Seiring dengan itu, MISA Academy komited untuk memahami kekuatan, nilai dan keperluan unik setiap pelajar, di samping menggalakkan penglibatan ahli keluarga dalam proses perancangan pendidikan mereka.</p>
-              <p className="text-slate-700">Bagi memastikan kualiti pendidikan yang terbaik dapat diberikan kepada setiap pelajar dan calon, MISA Academy telah memperkukuhkan kerjasama strategik bersama pelbagai institusi profesional seperti Ranaco Marine Sdn Bhd, , Ranaco Marine Sdn Bhd, Ranaco Marine Sdn Bhd dan Ranaco Marine Sdn Bhd</p>
+              <p className=" font-normal text-md text-slate-700 "><a className="border-b-2 border-yellow-600 font-bold" href="/">Misa</a> merupakan sebuah organisasi latihan dan pendidikan di Malaysia yang menawarkan program latihan dan pembangunan kerjaya yang selari dengan keperluan semasa pasaran kerja. Seiring dengan itu, MISA komited untuk memahami kekuatan, nilai dan keperluan unik setiap pelatih, di samping menggalakkan penglibatan ahli keluarga dalam proses perancangan latihan mereka.</p>
+              <p className="text-slate-700">Bagi memastikan kualiti latihan yang terbaik dapat diberikan kepada setiap pelatih, MISA telah memperkukuhkan kerjasama strategik bersama pelbagai institusi profesional seperti Sirim Berhad, Pelita Academy, Ranaco Marine Sdn Bhd, Sirim Academy, Meatech College</p>
             </div>
             <div className=" flex justify-between ">
               <Image
