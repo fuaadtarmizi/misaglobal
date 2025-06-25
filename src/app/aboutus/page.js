@@ -28,7 +28,7 @@ export default function Page() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/10 to-black/70"></div>
       <div className="relative grid space-y-6 py-4 text-left lg:mx-20 mx-4 lg:p-4 bottom-12 ">
       <p className="text-white ">About Us</p>
-      <p className="text-white font-semibold text-3xl">MISA Traning Cente</p>
+      <p className="text-white font-semibold text-3xl">MISA Traning Centre</p>
       <p className="text-white font-medium text-lg">Our Objective is to be the main single hub of the academy in shaping the future of the workforce in Malaysia.</p>
       </div>
     </div>
@@ -64,9 +64,8 @@ export default function Page() {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         width: "100%",
-        height: "800px",
-       
-    overflow: "hidden"
+        height: "800px",    
+        overflow: "hidden"
       }}
       ></div>
       </div>
@@ -87,9 +86,6 @@ export default function Page() {
           <p className="text-white ">Our values are embedded in our culture as the backbone of our business conduct, reflecting our sense of duty and responsibility in upholding our commitment towards contributing to the well-being of peoples and nations wherever we operate.</p>
         </div>
       </div>
-
-
-
 
       <div className="bg-red-300 w-full  lg:pt-10">
         <div className="w-full grid grid-cols-2">

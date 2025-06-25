@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image"
 
 
-function Intro() {
+function MainStream() {
   return (
     <>
     {/* <div className="py-2 lg:py-10 md:[height:80px]"></div> */}
@@ -54,4 +54,4 @@ function Intro() {
   )
 }
 
-export default Intro
+export default MainStream

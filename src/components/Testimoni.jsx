@@ -55,7 +55,7 @@ const testimoni = () => {
         <div key={index} className="p-2 rounded drop-shadow-md min-w-[600px] bg-slate-200 flex items-center ">
           <div className="flex items-center ">
             <Image
-              className="min-w-[300px] rounded-sm object-contain"
+              className="w-[300px] h-[200px] rounded-sm object-cover"
               src={item.image}
               alt={item.name}
               width={400}
