@@ -3,7 +3,7 @@ import "@/css/ScrollAnimation.css";
 
 const ScrollAnimation = () => {
   return (
-    <section className="scroll-section">
+    <section className="">
       <div className="scroll-container">
         {/* Left Side */}
         <div className="relative"></div>

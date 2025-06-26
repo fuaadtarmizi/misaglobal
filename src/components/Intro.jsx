@@ -17,7 +17,6 @@ const HeroSection = () => {
   return (
     <>
     <div className="relative h-screen w-full flex items-center justify-center overflow-hidden">
-      {/* Background Image relative*/}
       <div className=" ">
         <Image
         src="/home/image1.png"

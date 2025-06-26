@@ -1,16 +1,12 @@
-// import Image from "next/image";
-// import Intro from '@/components/Intro'
 import Intro from '@/components/Intro'
 import Courses from '@/components/Courses'
-// import Section1 from '@/components/Section1'
 import Footers from '@/components/Footers'
 import Testimoni from '@/components/Testimoni'
 import Navbar from '@/components/Navbar'
 import SideNav from '@/components/SideNav'
-// import ScrollMotion from '@/components/ui/ScrollMotion'
 import MindStream from '@/components/MainStream'
-import Animation from '@/components/Animation'
 import HouseCourse from '@/components/HouseCourse'
+import Value from '@/components/Value'
 
 export default function Home() {
   return (
@@ -22,7 +18,7 @@ export default function Home() {
         <MindStream/>
         <Courses/>
         <HouseCourse/>
-        <Animation/>
+        <Value/>
         <Testimoni/>
         <Footers/>
       </section>

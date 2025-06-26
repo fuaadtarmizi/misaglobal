@@ -6,12 +6,12 @@ import Link from 'next/link';
 
 const serviceItems = [
   { id: 1, 
-    letter: '54', 
+    letter: '549', 
     text: 'Renewable Energy Technician Certificate',
     image: 'https://www.offshore-technology.com/wp-content/uploads/sites/20/2020/10/Feature-Image-Top-ten-oil-and-gas-companies.jpg'},
 
   { id: 2,
-    letter: '23',
+    letter: '237',
     text: 'Certificate in Basic Scaffolding Erector in Oil & Gas Industry',
     image: 'https://www.offshore-technology.com/wp-content/uploads/sites/20/2020/10/Feature-Image-Top-ten-oil-and-gas-companies.jpg'},
 
@@ -22,7 +22,7 @@ const serviceItems = [
 
   { id: 4,
     letter: '512',
-    text: 'Certificate in Non-Destructive Radiographic Testing Level 2',
+    text: 'Certificate in Non-Destructive Radiographic',
     image: 'https://www.offshore-technology.com/wp-content/uploads/sites/20/2020/10/Feature-Image-Top-ten-oil-and-gas-companies.jpg'},
 
   { id: 5,
@@ -52,7 +52,7 @@ const serviceItems = [
 
   { id: 10,
     letter: '944',
-    text: 'Sijil Profesional Pemasangan Paip Gas (Pipe Gas Insulation)', 
+    text: 'Sijil Profesional Pemasangan Paip Gas', 
     image: 'https://www.offshore-technology.com/wp-content/uploads/sites/20/2020/10/Feature-Image-Top-ten-oil-and-gas-companies.jpg'},
 
   { id: 11,
@@ -80,7 +80,7 @@ const DynamicServices = () => {
           {firstItems.map((item) => (
             <div
               key={item.id}
-              className="bg-white shadow-2xl rounded text-center duration-300 hover:-translate-y-1 hover:scale-100"
+              className="group rounded shadow-current p-2 shadow-2xl text-center duration-300 hover:-translate-y-1 hover:scale-100"
               data-index={item.id}
             >
               <div 
@@ -90,21 +90,23 @@ const DynamicServices = () => {
                 backgroundPosition: 'center',
                 overlay: 1,
               }}
-               className="p-4 h-full flex flex-col justify-between rounded">
-                <p className="text-sm text-white whitespace-pre-line">{item.text}</p>
-                <p className="text-xs text-white flex justify-end pt-6">👤{item.letter}</p>
-                <Link 
-                href={`/Detail/${item.id}`} className="text-white">More</Link>
+               className="p-4 h-[130px] flex flex-col justify-between rounded">
+                <p className="text-md text-white whitespace-pre-line">{item.text}</p>
+                <div className="flex justify-between items-end">
+                  <Link href={`/Detail/${item.id}`} className="text-white text-sm p-1 px-4 rounded font-bold bg-gradient-to-r mt-3 from-yellow-500 to-yellow-400 bg-no-repeat [background-position:0_88%] [background-size:1%_100%] motion-safe:transition-all motion-safe:duration-700 group-hover:[background-size:100%_100%] focus:[background-size:100%_100%]">Grab Certificate Now</Link>
+                  <p className="text-xs text-white flex justify-end ">👤{item.letter}</p>
+                </div>
+                
               </div>
             </div>
           ))}
         </div>
         {/* Last 2 items centered */}
-        <div className="col-span-3 flex justify-center gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:flex justify-center gap-6">
           {lastTwoItems.map((subItem) => (
             <div
               key={subItem.id}
-              className="bg-white shadow-lg rounded text-center duration-300 hover:-translate-y-1 hover:scale-100 w-[450px]"
+              className="group rounded p-2 shadow-current shadow-md text-center duration-300 hover:-translate-y-1 hover:scale-100 w-full lg:w-[480px] h-[140px] "
               data-index={subItem.id}
             >
             <div style={{
@@ -113,9 +115,12 @@ const DynamicServices = () => {
               backgroundPosition: 'center',
               overlay: 1,
             }}
-            className="p-4 h-full flex flex-col justify-between">
+            className="p-4 h-full flex flex-col justify-between rounded">
               <p className="text-sm text-white whitespace-pre-line">{subItem.text}</p>
-              <p className="text-xs text-white flex justify-end pt-6">👤{subItem.letter}</p>
+              <div className="flex justify-between  items-end">
+                <Link href={`/Detail/${subItem.id}`} className="text-white text-sm p-1 px-4 rounded font-bold bg-gradient-to-r mt-3 from-yellow-500 to-yellow-400 bg-no-repeat [background-position:0_88%] [background-size:1%_100%] motion-safe:transition-all motion-safe:duration-700 group-hover:[background-size:100%_100%] focus:[background-size:100%_100%]">Get Certificate Now</Link>
+                <p className="text-xs text-white flex justify-end ">👤{subItem.letter}</p>
+              </div>
             </div>
           </div>
           ))}
