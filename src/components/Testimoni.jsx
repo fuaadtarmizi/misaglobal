@@ -12,37 +12,37 @@ const card = [
         name: "Azizul", 
         program: "Rigger Fitter",
         image: "/testimoni/azizul.jpg",
-        quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang"
+        quote: "Sebelum ni saya tak tahu hala tuju lepas SPM. Tapi lepas join MISA, saya terus dapat kerja dalam Oil & Gas. Terbaik!"
       },
       {
       name: "AlifFikra",
       program: "Rigger Fitter",
       image: "/testimoni/alifFikra.jpg",
-      quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang. Terima Kasih MISA"
+      quote: "MISA bukan sekadar kursus ia platform untuk ubah hidup. Kini saya bekerja di tapak projek Pengerang, gaji stabil dan masa depan cerah"
     },
     {
       name: "NazirulRahimi",
       program: "Rigger Fitter",
       image: "/testimoni/nazirulRahimi.jpg",
-      quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang. Terima Kasih MISA"
+      quote: "Saya rasa bertuah sertai MISA. Dari tak ada pengalaman langsung, sekarang saya dah jadi Rigger di industri O&G. Terima kasih MISA!"
     },
     {
       name: "FarisIkhwan",
       program: "Rigger Fitter",
       image: "/testimoni/farisIkhwan.jpg",
-      quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang. Terima Kasih MISA"
+      quote: "Dengan bimbingan dari MISA, saya belajar dari zero hingga boleh kerja. Sekarang saya dah bantu keluarga sendiri. Program yang sangat berbaloi."
     },
     {
       name: "ZakiYusuf",
       program: "Rigger Fitter",
       image: "/testimoni/zakiYusuf.jpg",
-      quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang. Terima Kasih MISA"
+      quote: "MISA membuka peluang kerjaya yang saya tak pernah bayangkan. Saya bangga jadi sebahagian daripada alumni MISA!"
     },
     {
       name: "NurashimboiAzamboi",
       program: "Rigger Fitter",
       image: "/testimoni/nurashimboi.jpg",
-      quote: "Misa ini adalah program yang terbaik bagi saya. Sekarang saya bekerja sebagai scafolding di syarikat Oil & Gas Pengerang. Terima Kasih MISA"
+      quote: "Program Rigger Fitter di MISA sangat hands-on dan mudah faham. Pensyarah pun supportive. Sekarang saya dah kerja tetap di Pengerang"
     },
   ];
 

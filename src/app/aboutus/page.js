@@ -2,7 +2,6 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import Image from "next/image"
-
 import '../globals.css';
 
 export default function Page() {
@@ -18,7 +17,7 @@ export default function Page() {
     <div
       className="relative w-full h-screen bg-center bg-cover flex flex-col justify-end"
       style={{
-        backgroundImage: "url('https://www.agoda.com/wp-content/uploads/2024/06/petronas-tower-kuala-lumpur.jpg')",
+        backgroundImage: "url('https://ww3.rics.org/content/dam/rics/images/modus/built-environment/february-2022/petronas-towers/Modus_feb22_petronastowers_closeup.jpg')",
         opacity: 1,
         animation: 'expandCircle 1.5s ease-out forwards',
         WebkitClipPath: 'circle(0% at 50% 50%)',
@@ -34,118 +33,104 @@ export default function Page() {
     </div>
     </section>
     <section>
-      <div className="hidden lg:flex mx-20 relative">
-      <div className="relative w-[800px] h-screen bottom-10 p-6 lg:pt-10" style={{backgroundColor: '#00b3b3',}}>
-      <p className="text-xl font-semibold text-white py-6">Our Prograssion</p>
-      <p className="text-white ">Petroliam Nasional Berhad (PETRONAS) is a global energy company committed to producing and delivering energy and solutions needed to advance society responsibly and sustainably.
-      As Malaysia’s national oil and gas company, we safeguard and manage the nation’s hydrocarbon resources. Our aim is to maximise value through our integrated business model to meet the energy needs of the nation and our customers across the globe. Our portfolio includes oil and gas, petrochemicals, petroleum products, as well as a range of cleaner energy solutions.
-      Ensuring sustainable practices across our operations is important to how we conduct our business. Our goal is to achieve net zero carbon emissions by 2050, and we strive to be a valuable partner to our stakeholders in transitioning to a lower carbon energy future in a just and responsible manner.</p>
-      </div>
-      <div className="bg-red-300 w-full flex justify-center lg:pt-10">
-        <div style={{
+      <div className=" lg:flex lg:mx-20 relative flex-row-reverse">
+        <div className=" w-full flex justify-center lg:items-center bg-[#00b3b3]">
+        <div className="w-[350px] h-[350px] lg:w-[450px] lg:h-[450px]"
+        style={{
         backgroundImage: "url('https://assets.isu.pub/document-structure/240624100038-a2905e49c197031183464b1730a91562/v1/b9cb8fa88d565614cf46a32a2e5ea2bd.jpeg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        width: "500px",
-        height: "500px",
+        // width: "500px",
+        // height: "500px", 
         borderRadius: "50%",
-    overflow: "hidden"
-      }}
+        overflow: "hidden"}}
       ></div>
+      </div>
+      <div className="lg:relative w-full  h-screen bottom-10 p-6 lg:pt-10 bg-gradient-to-t from-[#3a4372] to-[#00b3b3]">
+      <p className="text-xl font-semibold text-white py-6">About MISA</p>
+      <p className="text-white py-1">MISA (Malaysian Industrial Skills Academy) ialah sebuah platform latihan kemahiran industri yang komited dalam membentuk tenaga kerja mahir untuk memenuhi keperluan sektor Oil & Gas, pembinaan, logistik, dan industri berat lain di Malaysia. Sebagai sebuah pusat latihan yang memfokuskan kepada kemahiran teknikal dan persijilan industri, MISA memainkan peranan penting dalam menyediakan laluan kerjaya yang jelas dan berkualiti untuk belia Malaysia.</p>
+      <p className="text-white py-1">Matlamat kami adalah untuk memaksimumkan nilai kebolehpasaran graduan melalui program latihan berstruktur, pensijilan yang diiktiraf industri, serta penempatan kerja bersama rakan strategik di lapangan. Portfolio latihan kami meliputi bidang seperti Rigger Fitter, Scaffolding, Safety, Welding, dan pelbagai kemahiran teknikal lain yang kritikal dalam sektor pembangunan negara.</p>
+      <p className="text-white py-1">Kami percaya bahawa pembangunan kemahiran mesti selari dengan amalan mampan dan etika kerja yang bertanggungjawab. MISA komited untuk menjadi rakan industri yang dipercayai dalam membekalkan tenaga kerja berdaya saing dan menyokong agenda pembangunan negara ke arah masa depan yang lebih mampan dan inklusif.</p>
       </div>
       </div>
     </section>
     <section>
-      <div className="bg-red-300 ">
-        <div style={{
-        backgroundImage: "url('https://allianceenergycorpe.com/wp-content/uploads/2022/12/HTJ_7302.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        width: "100%",
-        height: "800px",    
-        overflow: "hidden"
-      }}
+      <div >
+        <div className="bg-red-300 w-full h-[300px] lg:h-[800px]"
+        style={{
+          backgroundImage: "url('https://allianceenergycorpe.com/wp-content/uploads/2022/12/HTJ_7302.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "right",
+          backgroundRepeat: "no-repeat",
+          // width: "100%",
+          // height: "800px",
+          overflow: "hidden"}}
       ></div>
       </div>
     </section>
     <section>
-      <div className="hidden lg:flex mx-20 relative">
-      <div className=" w-[800px] h-screen bottom-10 p-6 lg:pt-10 lg:space-y-10" style={{backgroundColor: '#00b3b3',}}>
-        <div>
-          <p className="text-xl font-semibold text-white py-4">Our Statements</p>
+      <div className="lg:flex w-full lg:px-20">
+      <div className=" w-full h-full  p-6 lg:py-20 lg:space-y-10 space-y-6 bg-[#00b3b3]">
+        <div className="">
+          <p className="text-2xl font-semibold text-white py-2">Our Statements</p>
           <p className="text-white ">These statements define PETRONAS as an organisation, guiding our corporate activities and policies, setting our course for the future..</p>
         </div>
         <div>
-          <p className="text-xl font-semibold text-white py-4">Statement of Purpose</p>
+          <p className="text-2xl font-semibold text-white py-2">Statement of Purpose</p>
           <p className="text-white ">A progressive energy and solutions partner enriching lives for a sustainable future.</p>
         </div>
         <div>
-          <p className="text-xl font-semibold text-white py-4">Shared Values</p>
+          <p className="text-2xl font-semibold text-white py-2">Shared Values</p>
           <p className="text-white ">Our values are embedded in our culture as the backbone of our business conduct, reflecting our sense of duty and responsibility in upholding our commitment towards contributing to the well-being of peoples and nations wherever we operate.</p>
         </div>
       </div>
-
-      <div className="bg-red-300 w-full  lg:pt-10">
-        <div className="w-full grid grid-cols-2">
-          <div className="w-full bg-yellow-300 flex">
-            <img 
+      <div className="bg-gradient-to-t from-[#3a4372] to-[#00b3b3] w-full lg:pt-10 flex items-center">
+        <div className="w-full grid lg:grid-cols-2 grid-cols-1 ">
+          <div className="w-full  flex p-6">
+            <img className="w-[110px] h-[80px] invert brightness-0"
               src="https://www.petronas.com/sites/default/files/inline-images/about-loyalty.svg"
               alt="Loyalty Illustration" 
-              style={{ width: '100%', height: 'auto' }} 
             />
-
-            <div className="space-y-2  bg-green-200">
-              <p>Loyalty</p>
-              <span>Loyal to corporation fuad.</span>
+            <div className="space-y-3  px-5">
+              <p className="text-xl font-bold text-white">Loyalty</p>
+              <p className="text-white">Setia kepada misi latihan dan pembangunan negara.</p>
             </div>
           </div>
-          <div className="max-w-[200px] bg-yellow-300 flex">
-            <img 
-              src="https://www.petronas.com/sites/default/files/inline-images/about-loyalty.svg"
+          <div className="w-full flex p-6">
+            <img className="w-[110px] h-[80px] invert brightness-0"
+              src="https://www.petronas.com/sites/default/files/inline-images/about-integrity.svg"
               alt="Loyalty Illustration" 
-              style={{ width: '100%', height: 'auto' }} 
             />
-
-            <div className="space-y-2 min-w-[200px] bg-green-200">
-              <p>Loyalty</p>
-              <span>Loyal to corporation.</span>
+            <div className="space-y-3 px-5">
+              <p className="text-xl font-bold text-white">Integrity</p>
+              <p className="text-white">Jujur, amanah dan di jamin pekerjaan</p>
             </div>
           </div>
-          <div className="max-w-[200px] bg-yellow-300 flex">
-            <img 
-              src="https://www.petronas.com/sites/default/files/inline-images/about-loyalty.svg"
+          <div className="w-full flex p-6">
+            <img className="w-[110px] h-[80px] invert brightness-0"
+              src="https://www.petronas.com/sites/default/files/inline-images/about-professionalism.svg"
               alt="Loyalty Illustration" 
-              style={{ width: '100%', height: 'auto' }} 
             />
-
-            <div className="space-y-2 min-w-[200px] bg-green-200">
-              <p>Loyalty</p>
-              <span>Loyal to corporation.</span>
+            <div className="space-y-3 min-w-[200px] px-5">
+              <p className="text-xl font-bold text-white">Professionalism</p>
+              <p className="text-white">Cemerlang dalam kemahiran dan sikap.</p>
             </div>
           </div>
-          <div className="max-w-[200px] bg-yellow-300 flex">
-            <img 
-              src="https://www.petronas.com/sites/default/files/inline-images/about-loyalty.svg"
+          <div className="w-full flex p-8">
+            <img className="w-[110px] h-[80px] invert brightness-0"
+              src="https://www.petronas.com/sites/default/files/inline-images/about-cohesiveness.svg"
               alt="Loyalty Illustration" 
-              style={{ width: '100%', height: 'auto' }} 
+              // style={{ width: '510px', height: 'auto' }} 
             />
-
-            <div className="space-y-2 min-w-[200px] bg-green-200">
-              <p>Loyalty</p>
-              <span>Loyal to corporation.</span>
+            <div className="space-y-3 min-w-[200px] px-5">
+              <p className="text-xl font-bold text-white">Cohesiveness</p>
+              <p className="text-white">Bersatu, saling menghormati dan bekerjasama.</p>
             </div>
           </div>
         </div>
-        
-       
-        
         </div>
-        
-        
       </div>
-      
     </section>
     </>
   );

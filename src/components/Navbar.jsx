@@ -12,7 +12,7 @@ import {
 
 function Navbar() {
   return (
-    <nav className="relative w-full p-6 bg-gradient-to-b from-[#102d41] via-[#4aa5e2] to-transparent">
+    <nav className="relative w-full h-32 p-6 bg-gradient-to-b from-[#292f52] via-[#57b4b4] to-transparent">
         <Menubar>
         <div className="pl-4">
             <a href="/" className="">
@@ -32,11 +32,11 @@ function Navbar() {
                 </MenubarTrigger>
             </MenubarMenu>
             <MenubarMenu>
-                <MenubarTrigger className="hover:bg-slate-500 rounded duration-500 text-white">News & Media</MenubarTrigger>
-                <MenubarContent>
+                <MenubarTrigger className=" rounded duration-500 text-white">News & Media</MenubarTrigger>
+                <MenubarContent className="backdrop-blur rounded text-white">
                     <MenubarItem>
-                    <div className="w-full p-2 hover:bg-slate-500 hover:bg-opacity-10">
-                        <a className="text-md font-light ml-2" href="../odl/diploma1">Deck Rating</a></div>
+                    <div className="w-full p-2 hover:bg-opacity-10">
+                        <a className="text-md font-light ml-2 " href="../odl/diploma1">Deck Rating</a></div>
                     </MenubarItem>
                     <MenubarItem>
                     <div className="w-full p-2 hover:bg-slate-500 hover:bg-opacity-10">
@@ -46,7 +46,7 @@ function Navbar() {
             </MenubarMenu>
             <MenubarMenu>
                 <MenubarTrigger className="hover:bg-slate-500 rounded duration-500 text-white">Our Partner</MenubarTrigger>
-                <MenubarContent>
+                <MenubarContent className="backdrop-blur rounded text-white">
                     <MenubarItem>
                     <div className="w-full p-2 hover:bg-slate-500 hover:bg-opacity-10">
                         <a className="text-md font-light ml-2" href="../kursusdiploma/dhumy">Authorised Gas Tester</a></div>
