@@ -45,7 +45,7 @@ function footer() {
         </div>
       </div>
       <div className="bg-black w-max-[300px]  text-white text-xs flex justify-center text-center p-4">
-        <h>@ 2023 MISA (M) Sdn Bhd 1334979-W | Hak Cipta Terpelihara | Developed by PetalCode Labs</h>
+        <h>@ 2023 MISA (M) Sdn Bhd 1334979-W | Hak Cipta Terpelihara | Developed by <a href="https://www.tiktok.com/@petalcode">PetalCode Labs</a></h>
       </div>
     </div>
     </div>
