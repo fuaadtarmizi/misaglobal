@@ -5,10 +5,10 @@ import Link from 'next/link';
 
 
 const serviceItems = [
-  { id: 1, 
-    letter: '549', 
-    text: 'Renewable Energy Technician Certificate',
-    image: 'https://www.offshore-technology.com/wp-content/uploads/sites/20/2020/10/Feature-Image-Top-ten-oil-and-gas-companies.jpg'},
+  // { id: 1, 
+  //   letter: '549', 
+  //   text: 'Renewable Energy Technician Certificate',
+  //   image: 'https://www.offshore-technology.com/wp-content/uploads/sites/20/2020/10/Feature-Image-Top-ten-oil-and-gas-companies.jpg'},
 
   { id: 2,
     letter: '237',
@@ -16,35 +16,35 @@ const serviceItems = [
     image: 'https://www.offshore-technology.com/wp-content/uploads/sites/20/2020/10/Feature-Image-Top-ten-oil-and-gas-companies.jpg'},
 
   { id: 3,
-    letter: '902',
-    text: 'Certificate in Autorized Gas Tester Entry Supervisor',
-    image: 'https://www.offshore-technology.com/wp-content/uploads/sites/20/2020/10/Feature-Image-Top-ten-oil-and-gas-companies.jpg'},
+    letter: '985',
+    text: 'Certificate in Fibre Optic Tecnician',
+    image:'https://cdn.prod.website-files.com/5b6df8bb681f89c158b48f6b/5d8cb9d78fc03d90f8e7fe0c_qualifications.jpg'},
 
   { id: 4,
     letter: '512',
-    text: 'Certificate in Non-Destructive Radiographic',
+    text: 'Certificate in Non-Destructive Testing',
     image: 'https://www.offshore-technology.com/wp-content/uploads/sites/20/2020/10/Feature-Image-Top-ten-oil-and-gas-companies.jpg'},
 
   { id: 5,
-    letter: '783',
-    text: 'Drone Pilot Programme - Basic Remote Pilot of Certificate',
-    image: 'https://gaotek.com/wp-content/uploads/elementor/thumbs/Applications-of-Payload-Drones-in-the-Environmental-Monitoring-IndustryBy-Sibgha-qsy4fyhsyzmvu9tl2heexk23r75avx6rkn13q8pyc0.jpg'},
+    letter: '672',
+    text: 'Sijil Profesional Rigger Fitter',
+    image: 'https://www.offshore-technology.com/wp-content/uploads/sites/20/2020/10/Feature-Image-Top-ten-oil-and-gas-companies.jpg'},
 
   { id: 6,
     letter: '634',
     text: 'Certificate in Fibre Optic Splicer Tecnician',
     image:'https://cdn.prod.website-files.com/5b6df8bb681f89c158b48f6b/5d8cb9d78fc03d90f8e7fe0c_qualifications.jpg'},
 
-  { id: 7,
-    letter: '985',
-    text: 'Certificate in Fibre Optic Tecnician',
-    image:'https://cdn.prod.website-files.com/5b6df8bb681f89c158b48f6b/5d8cb9d78fc03d90f8e7fe0c_qualifications.jpg'},
+  // { id: 7,
+  //   letter: '902',
+  //   text: 'Certificate in Autorized Gas Tester Entry Supervisor',
+  //   image: 'https://www.offshore-technology.com/wp-content/uploads/sites/20/2020/10/Feature-Image-Top-ten-oil-and-gas-companies.jpg'},
 
-  { id: 8,
-    letter:'871',
-    text: 'Certificate in Protective Coating Technician', 
-    image: 'https://www.offshore-technology.com/wp-content/uploads/sites/20/2020/10/Feature-Image-Top-ten-oil-and-gas-companies.jpg'
-  },
+  // { id: 8,
+  //   letter:'871',
+  //   text: 'Certificate in Protective Coating Technician', 
+  //   image: 'https://www.offshore-technology.com/wp-content/uploads/sites/20/2020/10/Feature-Image-Top-ten-oil-and-gas-companies.jpg'},
+
   { id: 9,
     letter: '667',
     text: 'Certificate in Site Safety Supervisor',
@@ -52,18 +52,40 @@ const serviceItems = [
 
   { id: 10,
     letter: '944',
-    text: 'Sijil Profesional Pemasangan Paip Gas', 
+    text: 'Certificate in Pipe Gas Insulation', 
     image: 'https://www.offshore-technology.com/wp-content/uploads/sites/20/2020/10/Feature-Image-Top-ten-oil-and-gas-companies.jpg'},
 
   { id: 11,
-    letter: '672',
-    text: 'Sijil Profesional Rigger Fitter',
-    image: 'https://www.offshore-technology.com/wp-content/uploads/sites/20/2020/10/Feature-Image-Top-ten-oil-and-gas-companies.jpg'},
+    letter: '783',
+    text: 'Drone Pilot Programme - Basic Remote Pilot of Certificate',
+    image: 'https://gaotek.com/wp-content/uploads/elementor/thumbs/Applications-of-Payload-Drones-in-the-Environmental-Monitoring-IndustryBy-Sibgha-qsy4fyhsyzmvu9tl2heexk23r75avx6rkn13q8pyc0.jpg'},
+
+  { id: 12,
+    letter: '689',
+    text: 'Certificate in Kursus Kelasi Katering',
+    image: 'https://www.acclaindia.com/success-stories/wp-content/uploads/2019/03/Galley_prep.jpg'},
+
+  { id: 13,
+    letter: '487',
+    text: 'Certificate in Kursus Kulinari',
+    image: 'https://www.acclaindia.com/success-stories/wp-content/uploads/2019/03/Galley_prep.jpg'},
+
+  { id: 14,
+    letter: '837',
+    text: 'Certificate in Kelasi Geladak Enjin / Deck Rating',
+    image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjT5coLkXMnDSSEjokCpExIgLImLbCE87IMSZs7hpMqiTeRI88kdzH4_D5rIJal4LiliNfa8xxKLAOQu8dWT3P3KOilJ0fY3mfJ_3jErG-91sBbnNM23HxvsGQeCI3jLnPm26uYG_luh0/s1600/2013-04-06_200108.png'},
+
+  { id: 15,
+    letter: '441',
+    text: 'Certificate in Kelasi Enjin Kapal / Engine Rating',
+    image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjT5coLkXMnDSSEjokCpExIgLImLbCE87IMSZs7hpMqiTeRI88kdzH4_D5rIJal4LiliNfa8xxKLAOQu8dWT3P3KOilJ0fY3mfJ_3jErG-91sBbnNM23HxvsGQeCI3jLnPm26uYG_luh0/s1600/2013-04-06_200108.png'},
+
+
 ];
 
 const DynamicServices = () => {
-  const firstItems = serviceItems.slice(0, serviceItems.length - 2);
-  const lastTwoItems = serviceItems.slice(-2);
+  const firstItems = serviceItems.slice(0, serviceItems.length - 0); //"-2" UBAH KALAU ADE TAMBAH COURSE
+  // const lastTwoItems = serviceItems.slice(-1); //"-2" UBAH KALAU ADE TAMBAH COURSE
 
   return (
     <>
@@ -102,7 +124,7 @@ const DynamicServices = () => {
           ))}
         </div>
         {/* Last 2 items centered */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 lg:flex justify-center gap-6">
+        {/* <div className=" lg:flex justify-center gap-6">
           {lastTwoItems.map((subItem) => (
             <div
               key={subItem.id}
@@ -124,7 +146,7 @@ const DynamicServices = () => {
             </div>
           </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
     </div>

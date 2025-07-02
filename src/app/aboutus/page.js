@@ -33,8 +33,8 @@ export default function Page() {
     </div>
     </section>
     <section>
-      <div className=" lg:flex lg:mx-20 relative flex-row-reverse">
-        <div className=" w-full flex justify-center lg:items-center bg-[#00b3b3]">
+      <div className=" lg:flex lg:mx-20 relative flex-row-reverse bg-[#763f98]">
+        <div className=" w-full flex justify-center lg:items-center ">
         <div className="w-[350px] h-[350px] lg:w-[450px] lg:h-[450px]"
         style={{
         backgroundImage: "url('https://assets.isu.pub/document-structure/240624100038-a2905e49c197031183464b1730a91562/v1/b9cb8fa88d565614cf46a32a2e5ea2bd.jpeg')",
@@ -47,17 +47,17 @@ export default function Page() {
         overflow: "hidden"}}
       ></div>
       </div>
-      <div className="lg:relative w-full  h-screen bottom-10 p-6 lg:pt-10 bg-gradient-to-t from-[#3a4372] to-[#00b3b3]">
-      <p className="text-xl font-semibold text-white py-6">About MISA</p>
-      <p className="text-white py-1">MISA (Malaysian Industrial Skills Academy) ialah sebuah platform latihan kemahiran industri yang komited dalam membentuk tenaga kerja mahir untuk memenuhi keperluan sektor Oil & Gas, pembinaan, logistik, dan industri berat lain di Malaysia. Sebagai sebuah pusat latihan yang memfokuskan kepada kemahiran teknikal dan persijilan industri, MISA memainkan peranan penting dalam menyediakan laluan kerjaya yang jelas dan berkualiti untuk belia Malaysia.</p>
-      <p className="text-white py-1">Matlamat kami adalah untuk memaksimumkan nilai kebolehpasaran graduan melalui program latihan berstruktur, pensijilan yang diiktiraf industri, serta penempatan kerja bersama rakan strategik di lapangan. Portfolio latihan kami meliputi bidang seperti Rigger Fitter, Scaffolding, Safety, Welding, dan pelbagai kemahiran teknikal lain yang kritikal dalam sektor pembangunan negara.</p>
-      <p className="text-white py-1">Kami percaya bahawa pembangunan kemahiran mesti selari dengan amalan mampan dan etika kerja yang bertanggungjawab. MISA komited untuk menjadi rakan industri yang dipercayai dalam membekalkan tenaga kerja berdaya saing dan menyokong agenda pembangunan negara ke arah masa depan yang lebih mampan dan inklusif.</p>
+      <div className="lg:relative w-full h-screen bottom-10 p-6 lg:pt-10 bg-gradient-to-t from-[#3a4372] to-[#00b3b3]">
+        <p className="text-xl font-semibold text-white py-6">About MISA</p>
+        <p className="text-white py-2">MISA (Malaysian Industrial Skills Academy) ialah sebuah platform latihan kemahiran industri yang komited dalam membentuk tenaga kerja mahir untuk memenuhi keperluan sektor Oil & Gas, pembinaan, logistik, dan industri berat lain di Malaysia. Sebagai sebuah pusat latihan yang memfokuskan kepada kemahiran teknikal dan persijilan industri, MISA memainkan peranan penting dalam menyediakan laluan kerjaya yang jelas dan berkualiti untuk belia Malaysia.</p>
+        <p className="text-white py-2">Matlamat kami adalah untuk memaksimumkan nilai kebolehpasaran graduan melalui program latihan berstruktur, pensijilan yang diiktiraf industri, serta penempatan kerja bersama rakan strategik di lapangan. Portfolio latihan kami meliputi bidang seperti Rigger Fitter, Scaffolding, Safety, Welding, dan pelbagai kemahiran teknikal lain yang kritikal dalam sektor pembangunan negara.</p>
+        <p className="text-white py-2">Kami percaya bahawa pembangunan kemahiran mesti selari dengan amalan mampan dan etika kerja yang bertanggungjawab. MISA komited untuk menjadi rakan industri yang dipercayai dalam membekalkan tenaga kerja berdaya saing dan menyokong agenda pembangunan negara ke arah masa depan yang lebih mampan dan inklusif.</p>
       </div>
       </div>
     </section>
     <section>
       <div >
-        <div className="bg-red-300 w-full h-[300px] lg:h-[800px]"
+        <div className=" w-full h-[280px] lg:h-[800px]"
         style={{
           backgroundImage: "url('https://allianceenergycorpe.com/wp-content/uploads/2022/12/HTJ_7302.jpg')",
           backgroundSize: "cover",

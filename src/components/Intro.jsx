@@ -26,14 +26,14 @@ const HeroSection = () => {
         className="object-cover"
       />
       </div>
-      
-      {/* Overlay for Dark Effect */}
 
       {/* Hero Content */}
       <div className="hero-content text-center text-white z-10">
         <h1 className="text-5xl md:text-7xl font-bold" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Welcome to Misa Global</h1>
         <p className="mt-4 text-lg md:text-2xl" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Misa Tecnical Training Centre</p>
-        <button className="mt-8 px-6 py-3 bg-blue-800 hover:bg-slate-800 transition rounded text-lg shadow-2xl hover:-translate-y-2">About MISA</button>
+        <div className="pt-8">
+          <a href="/aboutus" className=" px-6 py-3 bg-blue-800 hover:bg-slate-800 transition rounded text-lg shadow-2xl hover:-translate-y-2">About MISA</a>
+        </div>
       </div>
       </div>
       <div>
