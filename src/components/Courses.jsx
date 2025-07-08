@@ -65,10 +65,10 @@ const serviceItems = [
     text: 'Certificate in Kursus Kelasi Katering',
     image: 'https://www.acclaindia.com/success-stories/wp-content/uploads/2019/03/Galley_prep.jpg'},
 
-  { id: 13,
-    letter: '487',
-    text: 'Certificate in Kursus Kulinari',
-    image: 'https://www.acclaindia.com/success-stories/wp-content/uploads/2019/03/Galley_prep.jpg'},
+  // { id: 13,
+  //   letter: '487',
+  //   text: 'Certificate in Kursus Kulinari',
+  //   image: 'https://www.acclaindia.com/success-stories/wp-content/uploads/2019/03/Galley_prep.jpg'},
 
   { id: 14,
     letter: '837',
@@ -84,8 +84,8 @@ const serviceItems = [
 ];
 
 const DynamicServices = () => {
-  const firstItems = serviceItems.slice(0, serviceItems.length - 0); //"-2" UBAH KALAU ADE TAMBAH COURSE
-  // const lastTwoItems = serviceItems.slice(-1); //"-2" UBAH KALAU ADE TAMBAH COURSE
+  const firstItems = serviceItems.slice(0, serviceItems.length -2); //"-2" UBAH KALAU ADE TAMBAH COURSE
+  const lastTwoItems = serviceItems.slice(-2); //"-2" UBAH KALAU ADE TAMBAH COURSE
 
   return (
     <>
@@ -124,7 +124,7 @@ const DynamicServices = () => {
           ))}
         </div>
         {/* Last 2 items centered */}
-        {/* <div className=" lg:flex justify-center gap-6">
+        <div className=" lg:flex justify-center gap-6">
           {lastTwoItems.map((subItem) => (
             <div
               key={subItem.id}
@@ -146,7 +146,7 @@ const DynamicServices = () => {
             </div>
           </div>
           ))}
-        </div> */}
+        </div>
       </div>
     </div>
     </div>

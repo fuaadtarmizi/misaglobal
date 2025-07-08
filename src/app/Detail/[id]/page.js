@@ -289,7 +289,7 @@ const serviceItems = [
   },
   {
     id: 13,
-    letter: '837',
+    letter: '689',
     text: 'Certificate in Kursus Kulinari',
     image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjT5coLkXMnDSSEjokCpExIgLImLbCE87IMSZs7hpMqiTeRI88kdzH4_D5rIJal4LiliNfa8xxKLAOQu8dWT3P3KOilJ0fY3mfJ_3jErG-91sBbnNM23HxvsGQeCI3jLnPm26uYG_luh0/s1600/2013-04-06_200108.png',
     desc1: [
@@ -316,8 +316,8 @@ const serviceItems = [
   },
   {
     id: 14,
-    letter: '441',
-    text: 'Certificate in Kursus Kulinari',
+    letter: '837',
+    text: 'Certificate in Kursus Geladak Kapal / Deck Rating ( 2 1/2 Bulan)',
     image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjT5coLkXMnDSSEjokCpExIgLImLbCE87IMSZs7hpMqiTeRI88kdzH4_D5rIJal4LiliNfa8xxKLAOQu8dWT3P3KOilJ0fY3mfJ_3jErG-91sBbnNM23HxvsGQeCI3jLnPm26uYG_luh0/s1600/2013-04-06_200108.png',
     desc1: [
       '📌 18 HINGGA 35 TAHUN',
@@ -336,7 +336,32 @@ const serviceItems = [
       '📌 SIJIL WATCH KEEPING DECK/ENGINE',
       '📌 DESIGNATED SECURITY DUTIES STCW',
       '📌 SHIP SECURITY AWARENESS STCW',
-      '📌 SIJIL SHIP SECURITY AWARENESS STCW',
+      '📌 BASIC RIGGING SLINGING',
+      '📌 DIJAMIN PEKERJAAN',
+      ],
+  },
+  {
+    id: 15,
+    letter: '441',
+    text: 'Certificate in Kursus Geladak Kapal / Engine Rating ( 2 1/2 Bulan)',
+    image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjT5coLkXMnDSSEjokCpExIgLImLbCE87IMSZs7hpMqiTeRI88kdzH4_D5rIJal4LiliNfa8xxKLAOQu8dWT3P3KOilJ0fY3mfJ_3jErG-91sBbnNM23HxvsGQeCI3jLnPm26uYG_luh0/s1600/2013-04-06_200108.png',
+    desc1: [
+      '📌 18 HINGGA 35 TAHUN',
+      '📌 MEMILIKI SEKURANG-KURANGNYA PT3/PMR',
+      '📌 BOLEH MEMBACA, MENULIS, MENGIRA, MINAT DAN MAMPU (5M)',
+      '📌 SIHAT TUBUH BADAN (LULUS PANEL JABATAN LAUT)',
+      '📌 BEBAS PENYALAHGUNAAN DADAH',
+      '📌 LELAKI SAHAJA',
+    ],
+    desc2: [
+      '📌 PENGANGKUTAN DISEDIAKAN(DARI ASRAMA KE PUSAT LATIHAN)',
+      '📌 PERCUMA PENGINAPAN',
+      '📌 PERCUMA UNIFORM PPE',
+      '📌 SEAMAN CARD',
+      '📌 SIJIL BASIC TRAIINING STCW',
+      '📌 SIJIL WATCH KEEPING DECK/ENGINE',
+      '📌 DESIGNATED SECURITY DUTIES STCW',
+      '📌 SHIP SECURITY AWARENESS STCW',
       '📌 BASIC RIGGING SLINGING',
       '📌 DIJAMIN PEKERJAAN',
       ],
@@ -367,7 +392,7 @@ export default function CourseDetail({ params }) {
           ))}
         </ul>
         <div className="mt-6">
-          <button className="bg-blue-600 text-white px-6 py-2 rounded">Apply Now</button>
+          <a href="/borangmisa" className="bg-blue-600 text-white px-6 py-2 rounded">Apply Now</a>
         </div>
       </div>
     </div>
