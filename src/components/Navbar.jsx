@@ -32,7 +32,10 @@ function Navbar() {
                 </MenubarTrigger>
             </MenubarMenu>
             <MenubarMenu>
-                <MenubarTrigger className=" rounded duration-500 text-white">News & Media</MenubarTrigger>
+                <MenubarTrigger className="hover:bg-slate-500 rounded duration-500">
+                    <a className="text-md text-white ml-2" href="/aboutus">News & Media</a> 
+                </MenubarTrigger>
+                {/* <MenubarTrigger className=" rounded duration-500 text-white">News & Media</MenubarTrigger>
                 <MenubarContent className="backdrop-blur rounded text-white">
                     <MenubarItem>
                     <div className="w-full p-2 hover:bg-opacity-10">
@@ -42,25 +45,33 @@ function Navbar() {
                     <div className="w-full p-2 hover:bg-slate-500 hover:bg-opacity-10">
                         <a className="text-md font-light ml-2" href="../odl/diploma1">Ranaco</a></div>
                     </MenubarItem>
-                </MenubarContent>
+                </MenubarContent> */}
             </MenubarMenu>
             <MenubarMenu>
-                <MenubarTrigger className="hover:bg-slate-500 rounded duration-500 text-white">Our Partner</MenubarTrigger>
+                <MenubarTrigger className="hover:bg-slate-800 rounded duration-500 text-white">Our Partner</MenubarTrigger>
                 <MenubarContent className="backdrop-blur rounded text-white">
                     <MenubarItem>
-                    <div className="w-full p-2 hover:bg-slate-500 hover:bg-opacity-10">
-                        <a className="text-md font-light ml-2" href="../kursusdiploma/dhumy">Authorised Gas Tester</a></div>
+                    <div className="w-full p-2 hover:bg-gray-500 hover:rounded ">
+                        <a className="text-md font-light ml-2" href="https://www.sirim.my/">Sirim Berhad</a></div>
                     </MenubarItem>
                     <MenubarItem>
-                    <div className="w-full p-2 hover:bg-slate-500 hover:bg-opacity-10">
-                        <a className="text-md font-light ml-2" href="../kursusdiploma/dle">Feet On Street(FOS)</a></div>
+                    <div className="w-full p-2 hover:bg-gray-500 hover:rounded">
+                        <a className="text-md font-light ml-2" href="https://www.pelitaakademi.com/">Pelita Akademi</a></div>
                     </MenubarItem>
                     <MenubarItem>
-                    <div className="w-full p-2 hover:bg-slate-500 hover:bg-opacity-10">
-                        <a className="text-md font-light ml-2" href="../kursusdiploma/dnur">Fiber Optic Technician(FOT)</a></div>
+                    <div className="w-full p-2 hover:bg-gray-500 hover:rounded">
+                        <a className="text-md font-light ml-2" href="https://ranacomarine.my/">Ranaco Marine Sdn Bhd</a></div>
+                    </MenubarItem>
+                    <MenubarItem>
+                    <div className="w-full p-2 hover:bg-gray-500 hover:rounded">
+                        <a className="text-md font-light ml-2" href="https://www.sirimacademy.my/">Sirim Academy</a></div>
+                    </MenubarItem>
+                    <MenubarItem>
+                    <div className="w-full p-2 hover:bg-gray-500 hover:rounded">
+                        <a className="text-md font-light ml-2" href="https://www.meatech.edu.my/">Meatech College</a></div>
                     </MenubarItem>
                 </MenubarContent>
-            </MenubarMenu>
+            </MenubarMenu> 
             <MenubarMenu>
                 <MenubarTrigger className=" hover:bg-slate-500 rounded duration-500 text-white">
                 <a href="../borangmisa">Contact Us</a> </MenubarTrigger>
